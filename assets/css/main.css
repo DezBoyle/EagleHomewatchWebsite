@@ -98,7 +98,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #888;
+		color: #575757;
 		font-family: "Lato", sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -121,7 +121,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #ff8484;
+		color: #ff5e5e;
 		font-weight: 700;
 	}
 
@@ -134,7 +134,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #777;
+		color: #2b2b2b;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
@@ -185,7 +185,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 2px #f4f4f4;
+		border-bottom: solid 2px #62b0e3;
 		margin: 2.25em 0;
 	}
 
@@ -201,17 +201,27 @@ input, select, textarea {
 	}
 
 	code {
-		background: #555;
+		background: #4997ca;
 		border-radius: 5px;
 		color: #fff;
-		font-family: "Source Code Pro", monospace;
+		font-family: inherit;
 		font-size: 0.9em;
-		margin: 0 0.25em;
+		margin: 0 0em;
+		padding: 0.25em 0.65em;
+	}
+
+	.codeGrey {
+		background: #45595f;
+		border-radius: 5px;
+		color: #fff;
+		font-family: inherit;
+		font-size: 0.9em;
+		margin: 0 0em;
 		padding: 0.25em 0.65em;
 	}
 
 	pre {
-		font-family: "Source Code Pro", monospace;
+		font-family: inherit;
 		font-size: 0.9em;
 		margin: 0 0 2.25em 0;
 	}
@@ -234,6 +244,16 @@ input, select, textarea {
 
 	.align-right {
 		text-align: right;
+	}
+
+	.smaller {
+		font-size: 12pt;
+		text-align: left;
+		padding: 1em 1.5em;
+	}
+	.padding {
+		padding: 1em 1.5em;
+		text-align: left;
 	}
 
 /* Row */
@@ -2789,7 +2809,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb1;
+					border-top: solid 2px #4997ca;
 					display: block;
 					padding: 0;
 				}
