@@ -121,7 +121,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #ff5e5e;
+		color: #d74848;
 		font-weight: 700;
 	}
 
@@ -1805,8 +1805,9 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #4997ca;
-		font-size: 3.5em;
+		color: #226d9f;
+		font-size: 2em;
+		text-align: left;
 	}
 
 		header.major h2 + p {
@@ -2242,7 +2243,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2.25em 0;
+		margin: 0 0 1em 0;
 		padding-left: 1em;
 	}
 
@@ -2401,8 +2402,8 @@ input, select, textarea {
 		ul.feature-icons li {
 			text-decoration: none;
 			display: inline-block;
-			margin: 0 0 1.6875em 0;
-			padding: 0.35em 0 0 3.5em;
+			margin: 0 0 1.1em 0;
+			padding: 0.25em 0 0 3.5em;
 			position: relative;
 			vertical-align: top;
 			width: 48%;
@@ -3173,7 +3174,7 @@ input, select, textarea {
 			}
 
 			header.major h2 {
-				font-size: 2.5em;
+				font-size: 1.5em;
 			}
 
 				header.major h2 + p {
