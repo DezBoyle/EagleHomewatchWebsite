@@ -208,6 +208,8 @@ input, select, textarea {
 		font-size: 0.9em;
 		margin: 0 0em;
 		padding: 0.25em 0.65em;
+		-webkit-box-decoration-break: clone;
+  		box-decoration-break: clone;
 	}
 
 	.codeGrey {
@@ -218,6 +220,8 @@ input, select, textarea {
 		font-size: 0.9em;
 		margin: 0 0em;
 		padding: 0.25em 0.65em;
+		-webkit-box-decoration-break: clone;
+  		box-decoration-break: clone;
 	}
 
 	pre {
@@ -2397,13 +2401,14 @@ input, select, textarea {
 	ul.feature-icons {
 		list-style: none;
 		padding-left: 0;
+		text-align: center;
 	}
 
 		ul.feature-icons li {
 			text-decoration: none;
 			display: inline-block;
 			margin: 0 0 1.1em 0;
-			padding: 0.25em 0 0 3.5em;
+			padding: 0.25em 0 0 2em;
 			position: relative;
 			vertical-align: top;
 			width: 48%;
@@ -3331,7 +3336,7 @@ input, select, textarea {
 			input[type="reset"],
 			input[type="button"],
 			.button {
-				padding: 0;
+				padding: .2;
 			}
 
 	}
